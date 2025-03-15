@@ -95,18 +95,3 @@ class UNetSeeInDark(nn.Module):
         out = self.conv10_1(conv9)
         return out[:, :, :h, :w]
 
-
-if __name__ == "__main__":
-
-    trained_cp = torch.load("/data/feiran/20241013/sr_pretrain/denoising/checkpoints/sonya7s2.bin", weights_only=False)[
-        "model"
-    ]
-    temp_cp = torch.load("/data/feiran/20241013/sr_pretrain/denoising/checkpoints/template.pth", weights_only=False)
-
-    for index, (k1, k2) in enumerate(zip(trained_cp, temp_cp)):
-        temp_cp[k2] = trained_cp[k1]
-
-    torch.save(temp_cp, "/data/feiran/20241013/sr_pretrain/denoising/checkpoints/sonya7s2.pth")
-
-#    model = UNetSeeInDark()
-#    model.load_state_dict(torch.load('/data/feiran/20241013/sr_pretrain/denoising/checkpoints/imx686.pth'), strict=True)
