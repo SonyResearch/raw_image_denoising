@@ -1,7 +1,7 @@
 # Noise Modeling in One Hour: Minimizing Preparation Efforts for Self-supervised Low-Light RAW Image Denoising
 
 #### Official repository for the CVPR'25 paper: 
-#### [Noise Modeling in One Hour: Minimizing Preparation Efforts for Self-supervised Low-Light RAW Image Denoising (WIP)]()
+#### [Noise Modeling in One Hour: Minimizing Preparation Efforts for Self-supervised Low-Light RAW Image Denoising (arxiv)](https://arxiv.org/abs/2505.00045)
 ##### [Feiran Li (Sony Research)](https://sites.google.com/view/feiranlihomepage/home), Haiyang Jiang (Tokyo University), [Daisuke Iso (Sony Research)](https://ai.sony/people/Daisuke-Iso/)
 
 ## Overview
