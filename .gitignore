@@ -163,4 +163,5 @@ cython_debug/
 
 # MACOS
 .DS_Store
-
+*.pth
+*.info

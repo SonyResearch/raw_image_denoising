@@ -87,7 +87,7 @@ def get_SID_info(info_dir="info", root_dir="/data/SID/Sony", mode="train"):
     return infos
 
 
-def get_SID_info_from_txt(info_dir="infos", root_dir="/data/SID/Sony", txt="SID_Sony_paired.txt"):
+def get_SID_info_from_txt(info_dir="infos", root_dir="/data/SID/Sony", txt="resources/SID_Sony_paired.txt"):
     fns = read_paired_fns(txt)
     long_dir = os.path.join(root_dir, "long")
     short_dir = os.path.join(root_dir, "short")
