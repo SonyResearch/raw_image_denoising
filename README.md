@@ -53,10 +53,11 @@ We would like to thank previous open-source efforts that we utilize in our code,
 
 ## BibTeX
 ```bibtex
-@inproceedings{li2025NoiseModeling,
-    author = {Li, Feiran and Jiang, Haiyang and Iso, Daisuke},
-    title = {Noise Modeling in One Hour: Minimizing Preparation Efforts for Self-supervised Low-Light RAW Image Denoising},
-    booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition},
-    year = {2025}
+@inproceedings{li2025noise,
+  title={Noise Modeling in One Hour: Minimizing Preparation Efforts for Self-supervised Low-Light RAW Image Denoising},
+  author={Li, Feiran and Jiang, Haiyang and Iso, Daisuke},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={5699--5708},
+  year={2025}
 }
 ```
